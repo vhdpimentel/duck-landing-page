@@ -35,6 +35,15 @@ body{
     background-color: purple;
 }
 
+button{
+    font-size: 18px;
+    font-weight: bold;
+    background-color: pink;
+    border: none;
+    padding: 8px 30px;
+    border-radius: 10px;
+    white-space: nowrap;
+}
 
 
 .footer{
