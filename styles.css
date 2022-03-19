@@ -11,6 +11,7 @@ body{
     display: flex;
     background-color: pink;
     align-items: center;
+    box-sizing: border-box;
 }
 
 /*--------------------------------------*/
@@ -39,6 +40,7 @@ body{
     justify-content: center;
     padding: 8em 10%;
     background-color: purple;
+    box-sizing: border-box;
 }
 
 .section-1 > div{
@@ -94,6 +96,7 @@ button{
     flex-direction: column;
     align-items: center;
     gap: 4em;
+    box-sizing: border-box;
 }
 
 .section-2 h2{
@@ -129,7 +132,31 @@ button{
 /* ------------------------------------*/
 
 .section-3{
-    background-color: gray;
+    background-color: rgb(207, 207, 207);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 10%;
+}
+
+.section-3 > div{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 70%;
+}
+
+.section-3 p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.section-3 > div > b{
+    align-self: flex-end;
+    font-size: 24px;
 }
 
 /* ------------------------------------*/
