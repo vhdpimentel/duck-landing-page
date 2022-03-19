@@ -1,4 +1,20 @@
+body{
+    margin: 0px;
+}
+
 .header,
 .footer{
     display: flex;
+    background-color: pink;
+    align-items: center;
+}
+
+.header{
+    justify-content: space-between;
+    padding: 1em 5em;
+}
+
+.footer{
+    justify-content: center;
+    padding: 1em;
 }
