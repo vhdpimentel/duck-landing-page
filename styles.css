@@ -13,7 +13,7 @@ body{
 
 .header{
     justify-content: space-between;
-    padding: 1em 300px;
+    padding: 1em 10%;
 }
 
 .header-main-link{
@@ -31,7 +31,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 8em 300px;
+    padding: 8em 10%;
     background-color: purple;
 }
 
@@ -56,6 +56,7 @@ h1{
     font-size: 48px;
     font-weight: 800;
     margin: 0px;
+    line-height: 1em;
 }
 
 button{
@@ -72,7 +73,6 @@ button{
     display: flex;
     align-items: center;
     max-width: 50%;
-    min-width: 300px;
 }
 
 .main-image img{
@@ -82,7 +82,7 @@ button{
 
 .section-2{
     display: flex;
-    padding: 50px 300px;
+    padding: 50px 10%;
     flex-direction: column;
     align-items: center;
     gap: 4em;
