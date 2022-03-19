@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    font-family: sans-serif;
 }
 
 .header,
@@ -7,14 +8,31 @@ body{
     display: flex;
     background-color: pink;
     align-items: center;
+    font-size: 18px;
 }
 
 .header{
     justify-content: space-between;
-    padding: 1em 5em;
+    padding: 0em 5em;
+}
+
+.main-link{
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.header ul{
+    list-style: none;
+    display: flex;
+    gap: 1em;
 }
 
 .footer{
     justify-content: center;
-    padding: 1em;
+    padding: 2em;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
