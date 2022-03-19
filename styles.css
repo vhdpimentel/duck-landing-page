@@ -59,7 +59,7 @@ body{
     align-items: flex-start;
     justify-content: center;
     gap: 0em;
-    margin: 1em 0em;
+    margin: 0em;
     max-width: 47.5%;
 }
 
@@ -212,7 +212,7 @@ button{
 /* ------------------------------------*/
 .footer{
     justify-content: center;
-    padding: 2em;
+    padding: 2em 10%;
 }
 
 a {
