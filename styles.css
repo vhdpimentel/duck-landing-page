@@ -16,29 +16,46 @@ body{
     padding: 1em 300px;
 }
 
-.main-link{
+.header-main-link{
     font-size: 24px;
     font-weight: bolder;
 }
 
-.header ul{
+.header ul{ /* list of links */
     list-style: none;
     display: flex;
     gap: 1em;
 }
 
-.container-1{
-    color: pink;
+.section-1{
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 8em 300px;
-    gap: 4em;
     background-color: purple;
+}
+
+.section-1 > div{
+    max-width: 100%;
+    color: pink;
+    display: flex;
+    gap: 3em;
+}
+
+.title-text-and-button{ /* wraps content on the left side of section 1 */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0em;
+    margin: 1em 0em;
+    max-width: 50%;
 }
 
 h1{
     font-size: 48px;
     font-weight: 800;
+    margin: 0px;
 }
 
 button{
@@ -51,7 +68,19 @@ button{
     white-space: nowrap;
 }
 
-.container-2{
+.main-image{
+    display: flex;
+    align-items: center;
+    max-width: 50%;
+    min-width: 300px;
+}
+
+.main-image img{
+    width: 100%;
+    height: auto;
+}
+
+.section-2{
     display: flex;
     padding: 50px 300px;
     flex-direction: column;
@@ -59,12 +88,12 @@ button{
     gap: 4em;
 }
 
-h2{
+.section-2 h2{
     font-size: 36px;
     font-weight: 800;
 }
 
-.container-2 ul{
+.section-2 ul{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -74,7 +103,7 @@ h2{
     align-content: center;
 }
 
-.container-2 ul li{
+.section-2 ul li{
     display: flex;
     flex-direction: column;
     align-items: center;
