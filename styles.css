@@ -53,6 +53,7 @@ body{
     padding: 8em 10%;
     background-color: purple;
     background-image: url("./images/duck-flock.png");
+    background-attachment: fixed;
 }
 
 .section-1 > div{
