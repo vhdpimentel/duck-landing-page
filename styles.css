@@ -238,6 +238,7 @@ button{
     justify-content: center;
     padding: 2em 10%;
     text-decoration: underline;
+    text-align: center;
 }
 
 a {
