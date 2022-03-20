@@ -159,6 +159,7 @@ button{
     text-align: center;
     box-sizing: border-box;
     height: 20px;
+    font-family: 'Luminari', cursive;
 }
 /* ------------------------------------*/
 
@@ -226,10 +227,17 @@ button{
     margin: 0px;
 }
 
+.bottom-rectangle a{
+    color: pink;
+}
+
+
+
 /* ------------------------------------*/
 .footer{
     justify-content: center;
     padding: 2em 10%;
+    text-decoration: underline;
 }
 
 a {
