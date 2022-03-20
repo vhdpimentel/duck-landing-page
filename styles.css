@@ -79,7 +79,9 @@ h1{
     line-height: 1em;
 }
 
-button{
+.link-button{ 
+    height: auto;
+    width: auto;
     font-size: 18px;
     font-weight: bold;
     background-color: pink;
