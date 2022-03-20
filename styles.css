@@ -228,7 +228,7 @@ button{
     margin: 0px;
 }
 
-.bottom-rectangle a{
+.left-text a{
     color: pink;
 }
 
@@ -245,4 +245,18 @@ button{
 a {
     text-decoration: none;
     color: black;
+    height: 100%;
+    width: 100%;
+}
+
+/* ------------------------------------------------ */
+.work-in-progress{
+    margin-top: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+    background-image: url(./images/duck-flock.png);
+    color: pink;
 }
