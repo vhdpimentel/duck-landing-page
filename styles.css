@@ -35,13 +35,17 @@ body{
 }
 
 .header-main-link img{
-    height:100px;
+    height:80px;
 }
 
 .header ul{ /* list of links */
     list-style: none;
     display: flex;
     gap: 2em;
+}
+
+.header li{
+    text-align: center;
 }
 
 /* ------------------------------------*/
