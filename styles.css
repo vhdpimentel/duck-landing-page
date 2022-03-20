@@ -93,12 +93,12 @@ button{
     display: flex;
     align-items: center;
     max-width: 47.5%;
-    border: 3px solid black;
 }
 
 .main-image img{
     width: 100%;
     height: auto;
+    border: 3px solid black;
 }
 
 /* ----------------------------------------*/
