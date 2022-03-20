@@ -23,6 +23,7 @@ body{
 .header{
     justify-content: space-between;
     padding: 1em 10%;
+
 }
 
 .header-main-link{
@@ -32,11 +33,14 @@ body{
     font-size: 24px;
     font-weight: bolder;
     align-items: center;
+    flex-basis: 0;
 }
 
 .header-main-link img{
     height:80px;
 }
+
+
 
 .header ul{ /* list of links */
     list-style: none;
