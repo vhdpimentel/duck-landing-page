@@ -251,7 +251,7 @@ a {
 
 /* ------------------------------------------------ */
 .work-in-progress{
-    margin-top: 20rem;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
